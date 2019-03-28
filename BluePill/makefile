@@ -1,11 +1,10 @@
 PROJECT = f103_cmsis_dap
 
-DIR=~/gcc-arm/bin
-CC=$(DIR)/arm-none-eabi-gcc
-NM=$(DIR)/arm-none-eabi-nm
-CP=$(DIR)/arm-none-eabi-objcopy
-OD=$(DIR)/arm-none-eabi-objdump
-SZ=$(DIR)/arm-none-eabi-size
+CC=arm-none-eabi-gcc
+NM=arm-none-eabi-nm
+CP=arm-none-eabi-objcopy
+OD=arm-none-eabi-objdump
+SZ=arm-none-eabi-size
 
 # SEMIHOST_LIB = --specs=rdimon.specs -lrdimon
 NANOLIB = --specs=nosys.specs --specs=nano.specs
